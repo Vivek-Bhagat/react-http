@@ -1,13 +1,15 @@
 // import logo from './logo.svg';
 import './App.css';
-import PostForm from './components/PostForm';
+import ClickCounter from './components/ClickCounter';
+// import PostForm from './components/PostForm';
 // import Postlist from './components/Postlist';
 
 function App() {
   return (
     <div className="App">
      {/* <Postlist/> */}
-     <PostForm/>
+     {/* <PostForm/> */}
+     <ClickCounter/>
     </div>
   );
 }
