@@ -21,10 +21,14 @@ button:hover{
     transition: cubic-bezier(0.86, 0, 0.07, 1);
 }
 body{
-    background-color: #fff;
+    background-color: #c35050;
     color: #1b1b1b;
 }
 
+body.dark-mode{
+    background-color: #1b1b1b;
+    color: #fff;
+}
 
 h1{
     
